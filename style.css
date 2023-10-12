@@ -1,0 +1,497 @@
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: white }
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+header{
+  display: flex;
+  width: 93%;
+  margin: auto;
+  align-items: center;
+  gap: 77%;
+  margin-top: 2rem;
+  padding-bottom: 7rem;
+}
+header p{
+  border: thin solid hsl(321, 100%, 78%);
+  color: hsl(321, 100%, 78%);
+  border-radius: 1rem;
+  padding: 0.2rem;
+  width: 18%;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+.first{
+  width: 93%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.first h2{
+  font-size: 2rem;
+}
+.get{
+  border: thin solid hsl(322, 100%, 66%);
+  padding: 0.3rem 1.7rem;
+  border-radius: 1rem;
+  margin: auto;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+.second{
+  width: 93%;
+  margin: auto;
+}
+.second img{
+  margin: auto;
+  display: flex;
+  width: 88%;
+}
+.third{
+  display: flex;
+  width: 93%;
+  margin: auto;
+  gap: 60%;
+}
+.third h2{
+  color: hsl(192, 100%, 9%);
+}
+.third{
+  color: #666;
+}
+.four, .two{
+  margin-left: 6%;
+}
+.four h2, .two h2{
+  font-size: 3rem;
+}
+.four img, .two img{
+  width: 30%;
+}
+.fourth, .sixth{
+  width: 100%;
+  margin: auto;
+}
+.fifth{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fifth-img{
+  width: 40%;
+}
+.top1 img, .top3 img{
+  width: 100%;
+  margin-bottom: -0.25rem;
+}
+.bottom1 img, .bottom3 img{
+  width: 100%;
+}
+.middle{
+  background-color: hsl(207, 100%, 98%);
+}
+.inner-middle{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  gap: 15%;
+  margin: auto;
+}
+.inner-middlee{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  gap: 15%;
+  margin: auto;
+}
+.mid-img{
+  width: 35%;
+}
+article{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.seventh{
+  width: 93%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3rem;
+  gap: 1.5rem;
+}
+.seventh p{
+  border: thin solid hsl(321, 100%, 78%);
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 1.7rem;
+  padding: 0.2rem;
+  width: 18%;
+  margin: auto;
+  padding: 0.5rem;
+}
+.footer-top{
+  width: 100%;
+  margin: auto;
+  margin-bottom: -4px;
+}
+.footer-top img{
+  width: 100%;
+}
+.ft-body{
+  width: 100%;
+  margin: auto;
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+}
+.ft-left, .ft-right{
+  width: 50%;
+}
+.ft-right{
+  width: 50%;
+  margin-left: 23%;
+  margin-right: 4%;
+}
+.ft-logo{
+  display: flex;
+  align-items: center;
+}
+.ft-logo h1{
+  font-size: 2rem;
+}
+.ft-logo img{
+  width: 6%;
+}
+.ft-icon img{
+  width: 2rem;
+}
+.ft-icon{
+  display: flex;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+.phone{
+  display: flex;
+  gap: 0.5rem;
+}
+.left-text{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.lefrit{
+  display: flex;
+  margin: auto;
+  padding: 2.5rem 2rem;
+  padding-left: 5%;
+}
+.right-text h1{
+  font-size: 1.6rem;
+}
+.right-text{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form{
+  padding-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.email{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+input{
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.4rem;
+}
+button{
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+}
+small{
+  color: red;
+}
+
+@media (max-width:1072px)and
+(min-width:768px){
+  .third{
+    display: flex;
+    width: 93%;
+    margin: auto;
+    gap: 55%;
+  }
+  header{
+    gap: 70%;
+  }
+  .seventh p{
+    width: 25%;
+  }
+}
+@media (max-width:768px)and
+(min-width:565px){
+  .third{
+    display: flex;
+    width: 93%;
+    margin: auto;
+    gap: 42%;
+  }
+  header{
+    gap: 65%;
+  }
+  .ft-logo img{
+    width: 14%;
+  }
+  .seventh p{
+    width: 40%;
+  }
+  input{
+    padding: 0.4rem 0.1rem;
+    width: 9rem;
+    border-radius: 0.4rem;
+  }
+  .ft-left{
+    width: 50%;
+  }
+  .ft-right{
+    width: 50%;
+    margin-left: 19%;
+    margin-right: 4%;
+  }
+  header img{
+    width: 20%;
+  }
+}
+@media (max-width:565px)and
+(min-width:465px){
+  header{
+    gap: 55%;
+  }
+  .four h2, .two h2{
+    font-size: 1.7rem;
+  }
+  input{
+    padding: 0.4rem 0.1rem;
+    width: 7rem;
+    border-radius: 0.4rem;
+  }
+  .third{
+    display: flex;
+    width: 93%;
+    margin: auto;
+    gap: 34%;
+  }
+  .form{
+    gap: 0.5rem;
+  }
+  .ft-right{
+    width: 50%;
+    margin-left: 16%;
+    margin-right: 4%;
+  }
+  header img{
+    width: 25%;
+  }
+  .seventh p{
+    border: thin solid hsl(321, 100%, 78%);
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 1.7rem;
+    padding: 0.2rem;
+    width: 50%;
+    margin: auto;
+    padding: 0.4rem;
+  }
+  .ft-logo img{
+    width: 14%;
+  }
+}
+@media (max-width:465px)and
+(min-width:425px){
+  header img{
+    width: 25%;
+  }
+  header{
+    gap: 55%;
+  }
+  header p{
+    width: 25%;
+  }
+  .third{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    font-weight: lighter;
+  }
+  .third img{
+    width: 2.5rem;
+  }
+  .third h2{
+    font-size: 4.5rem;
+  }
+  .third p{
+    text-align: center;
+  }
+  .inner-middle{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  .inner-middlee{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .inner-middle article, .inner-middlee article{
+    width: 100%;
+    text-align: center;
+  }
+  .mid-img, .fifth-img{
+    width: 80%;
+  }
+  .lefrit{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  .ft-right{
+    margin-left: 0;
+    margin-top: -3rem;
+    width: 100%;
+  }
+  .ft-left{
+    width: 100%;
+  }
+  .ft-logo img{
+    width: 9%;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+  }
+  .email input{
+    width: 100%;
+    height: 9vh;
+  }
+  .small{
+    display: none;
+  }
+  button{
+    width: 30%;
+    height: 9vh;
+    font-size: 1rem;
+  }
+  .seventh p{
+    width: 55%;
+  }
+}
+@media (max-width:425px)and
+(min-width:320px){
+  header img{
+    width: 34%;
+  }
+  header{
+    gap: 35%;
+  }
+  header p{
+    width: 37%;
+  }
+  .third{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    font-weight: lighter;
+  }
+  .third img{
+    width: 2rem;
+  }
+  .third h2{
+    font-size: 3.5rem;
+  }
+  .third p{
+    text-align: center;
+  }
+  .inner-middle{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  .inner-middlee{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .inner-middle article, .inner-middlee article{
+    width: 100%;
+    text-align: center;
+  }
+  .mid-img, .fifth-img{
+    width: 80%;
+  }
+  .lefrit{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  .ft-right{
+    margin-left: 0;
+    margin-top: -3rem;
+    width: 100%;
+  }
+  .ft-left{
+    width: 100%;
+  }
+  .ft-logo img{
+    width: 9%;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+  }
+  .email input{
+    width: 100%;
+    height: 9vh;
+  }
+  .small{
+    display: none;
+  }
+  button{
+    width: 30%;
+    height: 9vh;
+    font-size: 1rem;
+  }
+  .seventh p{
+    width: 85%;
+  }
+  .email input{
+    width: 100%;
+    height: 8vh;
+  }
+  button{
+    width: 35%;
+    height: 8vh;
+    font-size: 1rem;
+  }
+}
